@@ -74,7 +74,7 @@
         symbol_layer {
             bindings = <
                 &kp LBRC   &kp AMPS   &kp STAR   &kp LPAR   &kp RBRC    &trans  &trans     &trans     &trans    &trans
-                &kp PRCNT  &kp CARET  &kp PRCNT  &kp CARET  &kp PLUS    &trans  &kp RSHFT  &kp RCTRL  &kp RGUI  &kp RALT
+                &kp COLON  &kp CARET  &kp PRCNT  &kp CARET  &kp PLUS    &trans  &kp RSHFT  &kp RCTRL  &kp RGUI  &kp RALT
                 &kp TILDE  &kp EXCL   &kp AT     &kp HASH   &kp PIPE    &trans  &trans     &trans     &trans    &trans
                                                  &kp UNDER  &kp RPAR    &trans  &trans
             >;

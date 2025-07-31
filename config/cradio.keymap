@@ -4,6 +4,18 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    behaviors {
+        ht: hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <220>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
+  
     combos {
         compatible = "zmk,combos";
   
@@ -29,7 +41,7 @@
         base_layer {
             bindings = <
                 &mt ESC Q   &kp W       &kp F        &kp P         &kp B          &kp J            &kp L         &kp U        &kp Y       &kp SQT
-                &mt LALT A  &mt LGUI R  &mt LCTRL S  &mt LSHIFT T  &kp G          &kp M            &mt RSHIFT N  &mt RCTRL E  &mt RGUI I  &mt RALT O
+                &ht LALT A  &ht LGUI R  &ht LCTRL S  &ht LSHIFT T  &kp G          &kp M            &ht RSHIFT N  &ht RCTRL E  &ht RGUI I  &ht RALT O
                 &kp Z       &kp X       &kp C        &kp D         &kp V          &kp K            &kp H         &kp COMMA    &kp DOT     &kp FSLH
                                                      &lt 2 TAB     &lt 1 SPACE    &lt 4 BACKSPACE  &lt 5 ENTER
             >;

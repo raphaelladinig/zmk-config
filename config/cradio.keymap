@@ -31,7 +31,7 @@
             key-positions = <32 33>;
         };
         
-        tog_no_hrm_layer_combo {
+        toggle_misc_layer_combo {
             bindings = <&tog 7>;
             layers = <0>;
             key-positions = <30 31 32 33>;
@@ -105,7 +105,7 @@
             >;
         };
 
-        no_hrm_layer {
+        misc_layer {
             bindings = <
                 &kp Q  &kp W  &kp F  &kp P    &kp B        &kp J          &kp L      &kp U      &kp Y    &kp SQT
                 &kp A  &kp R  &kp S  &kp T    &kp G        &kp M          &kp N      &kp E      &kp I    &kp O

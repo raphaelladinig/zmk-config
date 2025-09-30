@@ -20,7 +20,7 @@ Keycaps where 3d printed on JCL3DP
 
 Switches are lubed with Krytox GPL-205G0
 
-Keymap inspired from [miryoku](https://github.com/manna-harbour/miryoku)
+Keymap inspired by [miryoku](https://github.com/manna-harbour/miryoku)
 
 ### Images
 
